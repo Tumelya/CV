@@ -1,0 +1,154 @@
+body {
+    margin: 0 auto;
+    width: 70%;
+}
+
+header, main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#navbar {
+    list-style-type: none;
+    border: 1px solid #979696;
+    border-radius: 20px 5px;
+    text-align: center;
+    background-color: #979696;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+#navbar a:hover {
+    border-radius: 20px 5px;
+    background-color: rgb(226, 226, 226);
+}
+
+.aboutMe {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.wide_div {
+    background: #e2e2e2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.exp {
+    padding: 5px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.edu {
+    margin-top: 29px;
+}
+
+.lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active,
+a:visited,
+a:hover,
+a.unattractivelink:hover {
+    color: #440072;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.unattractivelink {
+    color: #000;
+}
+
+.round {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    box-shadow: 0 0 0 5px rgb(226, 226, 226), 0 0 13px #333;
+}
+
+.flaground {
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 1px rgb(226, 226, 226), 0 0 2px #333;
+    float: left;
+    margin-right: 5px;
+}
+
+.fig, h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+.tooltip span {
+    visibility: hidden;
+    position: absolute;
+    left: 200px;
+}
+
+.tooltip:hover span {
+    visibility: visible;
+}
+
+.popupimg {
+    width: 330px;
+    height: 210px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px rgb(226, 226, 226), 0 0 13px #333;
+}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: rgb(226, 226, 226); /* Цвет линии */
+    color: rgb(226, 226, 226); /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+}
+
+.logo {
+    float: left;
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #979696;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_logo {
+    padding-left: 7%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.text {
+    text-indent: 10px;
+    line-height: 1.5;
+}

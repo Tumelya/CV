@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<header>
+    <div>
+        <p class="fig"><img class="round" src="img/me.jpg" alt="Me"></p>
+        <h1>Mariya Tumelya</h1>
+        <hr>
+    </div>
+
+    <div>
+        <nav>
+            <ul id="navbar">
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <h2 id="aboutme">About Myself</h2>
+        <hr>
+
+        <div class="aboutMe text"><p>I was born in Belarus in 2000. Now I am 21 years old. I got interested in web
+            development while I was studying at the Belarusian State University at the Faculty of
+            Mechanics and Mathematics (Specialty: Web-Programming and Internet Technologies) and at the Faculty of Radio
+            Physics and Computer Technologies (Specialty: Computer Security).</p>
+            <p>I am motivated to become a front-end developer, because I like it, I enjoy it.</p>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="contacts">
+        <h2 id="contacts">Contacts</h2>
+        <hr class="shorter_divider">
+        <p><img class="logo" src="img/gmaillogo.png" alt="gmail logo" title="Gmail"> <a
+                class="unattractivelink" href="mailto:mtumelia@gmail.com">mtumelia@gmail.com</a></p>
+        <p><img class="logo" src="img/phonelogo.png" alt="phone icon" title="Belarus phone number"> +375
+            (29) 1373290</p>
+        <p><img class="logo" src="img/phonelogo.png" alt="phone icon" title="Turkish phone number"> +90
+            (543) 2346098</p>
+        <p><img class="logo" src="img/discordlogo.png" alt="discord logo" title="Discord"> @mtumelia #8692
+        </p>
+        <p><img class="logo" src="img/telegramlogo.png" alt="telegram logo" title="Telegram"><a
+                class="unattractivelink" href="https://tlgg.ru/mtumelia" target="_blank"> @mtumelia</a></p>
+        <p><img class="logo" src="img/instagramlogo.png" alt="instagram logo" title="Instagram"><a
+                class="unattractivelink" href="https://instagram.com/mtumelia?igshid=YmMyMTA2M2Y="
+                target="_blank"> @mtumelia</a></p>
+        <p><img class="logo" src="img/linkedinlogo.png" alt="linkedIn logo" title="LinkedIn"> <a
+                href="https://www.linkedin.com/in/mtumelia/"
+                target="_blank" title="LinkedIn"> Mariya Tumelya</a></p></div>
+    <div class="codeExample"><h2>Code Example</h2>
+        <div class="wide_div">
+            <div class="code"><pre>
+                            <code>
+function createPhoneNumber(numbers){
+  if (numbers.length===10){
+    let first = numbers.slice(0, 3).join('');
+    let second = numbers.slice(3, 6).join('');
+    let third = numbers.slice(6).join('');
+
+    return `(${first}) ${second}-${third}`
+  }
+  else return "Quantity of numbers must be equal to 10"
+}
+                    </code> </pre>
+            </div>
+
+        </div>
+    </div>
+    <div class="text"><h2>Skills</h2>
+        <hr>
+        <ul>
+            <li>HTML, CSS</li>
+            <li>JavaScript basics</li>
+            <li>Typescript</li>
+            <li>React</li>
+            <li>GitHub, Git (version control)</li>
+            <li>Figma</li>
+            <li>C++</li>
+            <li>Wolfram Mathematica</li>
+        </ul>
+        <h3>IDE:</h3>
+        <ul>
+            <li>Visual Studio Code</li>
+            <li>Visual Studio</li>
+            <li>WebStorm</li>
+            <li>IntelliJ IDEA</li>
+        </ul>
+        <h3>Platforms and other:</h3>
+        <ul>
+            <li>CodeWars</li>
+            <li>FreeCodeCamp</li>
+            <li>Sublime Text</li>
+            <li>Soft skills</li>
+        </ul>
+    </div>
+    <div>
+        <div class="edu">
+            <h2>Education and Courses</h2>
+            <hr>
+            <ul class="text">
+                <li>
+                    <a class="unattractivelink" href="https://bsu.by/en/" target="_blank">Belarusian State
+                        University</a>
+                    <ul>
+                        <li><a class="unattractivelink" href="https://mmf.bsu.by/en/" target="_blank">Faculty of
+                            Mechanics
+                            and Mathematics</a></li>
+                        <li><a class="unattractivelink" href="https://rfe.bsu.by/" target="_blank">Faculty of Radio
+                            Physics
+                            and Computer Technologies</a></li>
+                    </ul>
+                </li>
+                <li><a class="unattractivelink" href="https://stepik.org/course/38218/promo" target="_blank"
+                       title="Stepik course">Stepic course</a>
+                    <a class="tooltip"
+                       href="https://stepik.org/certificate/c2de2fd60f755dfa42adaf16dd339eee314f28aa.pdf"
+                       target="_blank" title="Tap to see original HTML/CSS certificate">HTML/CSS<span><img
+                            class="popupimg" src="img/certificate.png" alt="Certificate"/></span></a>
+                </li>
+                <li><a class="unattractivelink" href="https://it-incubator.ru/" target="_blank" title="IT-incubator">IT-incubator</a>
+                    <a href="https://it-incubator.ru/education/front-end" target="_blank"
+                       title="Front-end">Front-end</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>Experience</h2>
+            <hr>
+            <div class="exp">
+                <div>
+                    <h3>Study tasks:</h3>
+                    <ul class="text">
+                        <li><a href="https://github.com/Tumelya" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.codewars.com/users/Tumelya" target="_blank">CodeWars</a></li>
+                        <li><a href="https://www.freecodecamp.org/mtumelia" target="_blank">FreeCodeCamp</a></li>
+                    </ul>
+                </div>
+                <div><h3>Projects:</h3>
+                    <ul class="text">
+                        <li><a href="https://tumelya.github.io/samuraiWay/" target="_blank">Social Network</a></li>
+                        <li><a href="https://tumelya.github.io/simple-counter/" target="_blank">Simple Counter</a></li>
+                        <li><a href="https://tumelya.github.io/CafeMenu-freeCodeCamp/" target="_blank">Cafe Menu</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Languages</h2>
+            <hr>
+            <div class="lang"><p class="text"><img class="flaground" src="img/ru.jpg" alt="Russian flag">Russian - <i>Native</i>
+            </p>
+                <p class="text"><img class="flaground" src="img/by.jpg" alt="Belarussian flag">Belarussian -
+                    <i>Native</i></p>
+                <p class="text"><img class="flaground" src="img/en.png" alt="USA flag">English - <i>Intermediate</i></p>
+            </div>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <a href="https://github.com/Tumelya" target="_blank"><img class="footer_logo" src="img/githublogo.png"
+                                                              alt="github logo" title="GitHub" width="30"
+                                                              height="30"></a>
+    <a href="https://instagram.com/mtumelia?igshid=YmMyMTA2M2Y=" target="_blank"><img class="footer_logo"
+                                                                                      src="img/instagramlogowhite.png"
+                                                                                      alt="instagram logo"
+                                                                                      title="Instagram" width="30"
+                                                                                      height="30"></a>
+    <a href="https://vk.com/masha_tumelia" target="_blank"><img class="footer_logo" src="img/vkwhite.png" alt="vk logo"
+                                                                title="VK" width="30" height="30"></a>
+    <a href="https://tlgg.ru/mtumelia" target="_blank"><img class="footer_logo" src="img/telegramlogowhite.png"
+                                                            alt="telegram logo" title="Telegram" width="30" height="30"></a>
+    <a href="https://www.facebook.com/mtumelia/" target="_blank"><img class="footer_logo"
+                                                                      src="img/facebooklogowhite.png"
+                                                                      alt="facebook logo" title="Facebook" width="30"
+                                                                      height="30"></a>
+    <a href="https://www.linkedin.com/in/mtumelia/" target="_blank"><img class="footer_logo"
+                                                                         src="img/linkedinwhitelogo.png"
+                                                                         alt="linkedin logo" title="LinkedIn" width="30"
+                                                                         height="30"></a>
+    <img class="footer_logo" src="img/tumelia.png" alt="tumelia 2022" title="Tumelia 2022" width="54" height="27">
+</footer>
+</body>
+
+</html>
